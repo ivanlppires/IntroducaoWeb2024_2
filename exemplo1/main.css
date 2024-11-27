@@ -1,0 +1,51 @@
+/*
+seletor { atributo: valor; }
+*/
+body{
+    background-color: #252525;
+}
+h1{
+    color:aquamarine;
+    text-align: center;
+}
+
+p{
+    color: #ff0;
+}
+
+/* combinar seletores */
+/* Agrupamento */
+h1, p{
+    font-style: italic;
+}
+/* Descedente */
+div p{
+    color: rgb(255,255,255);
+    font-style: normal;
+}
+/* Filho */
+div > p{
+    text-decoration: underline;
+}
+nav > ul > li > a{
+    color: #f00;
+}
+/* Irmão Adjacente (próximo - depois dele) */
+h2 + p{
+    background-color: yellow;
+    color:black;
+}
+div + p + p {
+    background-color: #f00;
+    color: #fff;
+}
+div{
+    border:1px solid yellow;
+}
+div > p + p {
+    text-transform: uppercase;
+}
+/* Irmão Geral (todos os irmãos) */
+div ~ p{
+    font-size: 2rem;
+}

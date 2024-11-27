@@ -1,0 +1,11 @@
+body{
+    background-color: darkcyan; /* usando nomes  (140) */
+    
+}
+div#box{
+    width: 200px;
+    height: 200px;
+/*    background-color: rgba(255,0,255,1); */
+/*    background-color: #330033FF; */
+/*    background-color: hsl(281, 100%, 39%, 1);  */
+}

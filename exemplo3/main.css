@@ -1,0 +1,33 @@
+body{
+    background-color: #444;
+}
+
+/* pseudo elemento */
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    font-size: 2em;
+    color: blue;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    
+}
+nav a::before{
+    content: "🔗";
+    margin-right: 0.5em;
+}
+a{
+    text-decoration: none;
+}
+/* Seletor por atributo elemento [ atributo = valor; ] */
+a[href^="https://google"]{
+    font-style: italic;
+    color:brown;
+}
+a[title]{
+    color: orange;
+}
