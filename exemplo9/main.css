@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* para que a largura e altura do elemento não sejam alteradas ao adicionar padding ou borda */
+}
+body{
+    background-color: black;
+}
+div#container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+    background-color: #777;
+}
+div.box{
+    padding:10px;
+    border:1px dotted #aaa;
+    width: 200px;
+}

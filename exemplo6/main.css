@@ -1,0 +1,18 @@
+body{
+    background-color: #003300;
+    color: #ffffff;
+}
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #005500;
+}
+
+/* Padding */
+td{
+    border:3px solid black;
+    padding: 10px;
+}
+

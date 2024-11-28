@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white ;
+}
+
+/* Display */
+h1{
+    display: block;
+}
+/* block, inline, inline-block */
+div{
+   border:2px solid yellow;
+   width: 100px;
+   display: inline-block;
+}
+div:last-child{
+    display: block;
+}
