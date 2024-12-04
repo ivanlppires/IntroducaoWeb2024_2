@@ -24,6 +24,7 @@ main{
 
 .menu-drawer {
     position: relative;
+    border:1px solid red;
 }
 
 /* Botão do menu */
@@ -51,7 +52,6 @@ main{
     flex-direction: column;
     justify-content: start;
     transition: left 0.3s ease-in-out;
-    border:1px solid yellow;
 }
 
 .menu-list li {
