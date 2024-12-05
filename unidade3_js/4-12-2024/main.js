@@ -81,7 +81,6 @@ const op = document.querySelector('#op');
 const divResultado = document.querySelector('#divResultado');
 
 divResultado.style.display = 'none';
-
 function calcular(){
     let resultado = null;
     if(num1.valueAsNumber && num2.valueAsNumber){ 
@@ -95,7 +94,7 @@ function calcular(){
     }else{
         resultado = 'Digite um número válido';
     }
-
-    divResultado.innerHTML = 'O resultado é: ' + resultado;
+    const bin = resultado.toString(2);
+    divResultado.innerHTML = 'O resultado é: ' + resultado+ '. Em binário é: ' + bin;
     divResultado.style.display = 'block';
 }
