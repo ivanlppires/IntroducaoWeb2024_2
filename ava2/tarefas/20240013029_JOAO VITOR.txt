@@ -1,0 +1,7 @@
+# 🚀 Cost Tech - Portfólio de João Vitor
+
+---
+
+## ⚙️ Observações: *>Iniciar o site pelo arquivo index.html
+
+https://github.com/joao-cost/portifolio-HTMLeCSS.git
