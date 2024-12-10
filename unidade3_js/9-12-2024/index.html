@@ -12,8 +12,9 @@
 <body>
     <H1>Aprendendo REGEX</H1>
     <form action="http://localhost/processa.php" method="post" onsubmit="return validar();">
-        <input type="text" id="email" placeholder="Digite seu email" name="email">
-        <input type="text" id="telefone" placeholder="Tel: (99) 99999-9999" name="telefone">
+        <input type="text" id="email" placeholder="Digite seu email" name="email" />
+        <input type="text" id="telefone" placeholder="Tel: (99) 99999-9999" name="telefone" />
+        <input type="text" id="nascimento" placeholder="Data e Nascimento" name="nascimento" oninput="mascaraData()" maxlength="8" />
         <button>Enviar</button>
         <div id="alerta"></div>
     </form>
