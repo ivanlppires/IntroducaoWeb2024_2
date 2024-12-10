@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-container">
+        <form id="clienteForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            
+            <label for="observacao">Observação:</label>
+            <textarea id="observacao" name="observacao"></textarea>
+            
+            <button type="submit">Enviar</button>
+            <button type="button" id="limpar">Limpar</button>
+        </form>
+    </div>
+
+    <div id="tabela-container" style="display: none;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Observação</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-body">
+                <!-- Dados do cliente serão inseridos aqui -->
+            </tbody>
+        </table>
+        <button id="voltar">Voltar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background-color: #000;
+    color:#fff;
+    font-size:1.5rem;
+}
+input, button{
+    width: 90vw;
+    padding:20px;
+    font-size: 2rem;
+}
+#alerta{
+    padding:20px;
+    margin:5px;
+    border:2px solid red;
+}
