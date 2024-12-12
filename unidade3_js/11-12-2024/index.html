@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CRUD com JS + Firebase RTDB</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <h1>CRUD com JS</h1>
+    <p>Este exemplo mostra como fazer um CRUD com JavaScript utilizando
+        Real-Time Database do Google Firebase</p>
+    <p>CRUD = Create, Read, Update, Delete</p>
+    <main>
+        <h2>Controle de Usuários</h2>
+        <form id="formulario">
+            <input type="text" name="nome" placeholder="Nome completo" />
+            <input type="email" name="email" placeholder="E-mail" />
+            <button>Salvar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Nome</td>
+                    <td>Email</td>
+                    <td>Ações</td>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+        </table>
+    </main>
+    <script src='main.js'></script>
+</body>
+
+</html>
